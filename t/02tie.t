@@ -3,7 +3,7 @@ use Test::More tests => 15;
 use Test::Exception;
 use Hash::DefaultValue;
 
-tie my %hash, 'Hash::DefaultValue', sub { $_ + 10 };
+tie my %hash, 'Hash::DefaultValue', sub { no warnings; $_ + 10 };
 
 ok tied %hash, 'is tied';
 
