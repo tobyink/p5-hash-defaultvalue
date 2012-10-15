@@ -8,4 +8,5 @@
 	issued  2012-10-15;
 	changeset [
 		item "Show how the 'aliased' module can be used with Hash::DefaultValue."^^Documentation;
+		item "No warning on $hash{$key} where $key is undef."^^Change;
 	].

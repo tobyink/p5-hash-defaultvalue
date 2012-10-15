@@ -42,6 +42,7 @@ sub TIEHASH
 sub FETCH
 {
 	my ($this, $key)  = @_;
+	$key = '' unless defined $key;
 	
 	unless (exists $this->[IDX_HASH]{$key})
 	{
