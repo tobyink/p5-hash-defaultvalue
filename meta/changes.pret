@@ -11,3 +11,9 @@
 		item "No warning on $hash{$key} where $key is undef."^^Change;
 		item [ a dcs:Addition; label "Hash::Missing"; dcs:thanks cpan:VOJ ];
 	].
+
+`Hash-DefaultValue 0.003 cpan:TOBYINK`
+	issued  2012-10-15;
+	changeset [
+		item "Add build dependency on Test::Warn."^^Packaging;
+	].
