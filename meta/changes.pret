@@ -9,4 +9,5 @@
 	changeset [
 		item "Show how the 'aliased' module can be used with Hash::DefaultValue."^^Documentation;
 		item "No warning on $hash{$key} where $key is undef."^^Change;
+		item [ a dcs:Addition; label "Hash::Missing"; dcs:thanks cpan:VOJ ];
 	].

@@ -13,6 +13,7 @@ use constant {
 	IDX_CODE   => 1, 
 	NEXT_IDX   => 2,
 };
+use constant _default => undef;
 
 BEGIN {
 	no warnings 'once';
@@ -23,8 +24,9 @@ BEGIN {
 
 sub TIEHASH
 {
-	my ($class, $coderef) = @_;
-	
+	my $class    = shift;
+	my $coderef  = @_ ? shift : $class->_default;
+
 	unless (ref $coderef)
 	{
 		my $value = $coderef;
@@ -138,6 +140,8 @@ Please report any bugs to
 L<http://rt.cpan.org/Dist/Display.html?Queue=Hash-DefaultValue>.
 
 =head1 SEE ALSO
+
+L<Hash::Missing> is a subclass of this module.
 
 L<Hash::WithDefaults> allows you to default particular keys by
 providing a template hashref.
