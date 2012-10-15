@@ -10,7 +10,7 @@ use Carp qw(croak);
 
 use constant {
 	IDX_HASH   => 0,
-	IDX_CODE   => 1, 
+	IDX_CODE   => 1,
 	NEXT_IDX   => 2,
 };
 use constant _default => undef;
