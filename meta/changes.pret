@@ -1,0 +1,11 @@
+# This file acts as the project's changelog.
+
+`Hash-DefaultValue 0.001 cpan:TOBYINK`
+	issued  2012-05-18;
+	label   "Initial release".
+
+`Hash-DefaultValue 0.002 cpan:TOBYINK`
+	issued  2012-10-15;
+	changeset [
+		item "Show how the 'aliased' module can be used with Hash::DefaultValue."^^Documentation;
+	].

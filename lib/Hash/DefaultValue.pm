@@ -17,7 +17,7 @@ use constant {
 BEGIN {
 	no warnings 'once';
 	$Hash::DefaultValue::AUTHORITY = 'cpan:TOBYINK';
-	$Hash::DefaultValue::VERSION   = '0.001';
+	$Hash::DefaultValue::VERSION   = '0.002';
 	@Hash::DefaultValue::ISA       = qw(Tie::ExtraHash);
 }
 
@@ -61,6 +61,9 @@ Hash::DefaultValue - create a hash where the default value is ain't undef
 
 =head1 SYNOPSIS
 
+  use 5.010;
+  use Hash::DefaultValue;
+  
   tie my %hash, 'Hash::DefaultValue', 42;
   say $hash{the_answer};  # says 42
 
@@ -119,6 +122,14 @@ point in the future. If you want to use some other reference, then wrap
 it in a coderef.
 
   tie my %hash, 'Hash::DefaultValue', sub { \@foo };
+
+=head2 Alias
+
+The L<aliased> module allows you to define aliases for class names, and
+works great for tie implementations.
+
+  use aliased 'Hash::DefaultValue' => 'HDV';
+  tie my %hash, HDV, 42;
 
 =head1 BUGS
 
