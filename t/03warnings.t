@@ -13,4 +13,4 @@ warning_is {
 warning_like {
 	use warnings;
 	is $hash{$key}, 1;
-} qr{Use of uninitialized value \$key in hash element};
+} qr{Use of uninitialized value( \$key)? in hash element};
