@@ -16,7 +16,7 @@ BEGIN {
 	require Hash::DefaultValue;
 	no warnings 'once';
 	$Hash::Missing::AUTHORITY = 'cpan:TOBYINK';
-	$Hash::Missing::VERSION   = '0.003';
+	$Hash::Missing::VERSION   = '0.004';
 	@Hash::Missing::ISA       = qw(Hash::DefaultValue);
 }
 
