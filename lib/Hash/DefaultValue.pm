@@ -60,7 +60,7 @@ __END__
 
 =head1 NAME
 
-Hash::DefaultValue - create a hash where the default value is ain't undef
+Hash::DefaultValue - create a hash where the default value ain't undef
 
 =head1 SYNOPSIS
 

@@ -6,7 +6,7 @@
 	a               :Project ;
 	:programming-language "Perl" ;
 	:name           "Hash-DefaultValue" ;
-	:shortdesc      "create a hash where the default value is ain't undef" ;
+	:shortdesc      "create a hash where the default value ain't undef" ;
 	:homepage       <https://metacpan.org/release/Hash-DefaultValue> ;
 	:download-page  <https://metacpan.org/release/Hash-DefaultValue> ;
 	:bug-database   <http://rt.cpan.org/Dist/Display.html?Queue=Hash-DefaultValue> ;
