@@ -25,7 +25,7 @@ __END__
 
 =head1 NAME
 
-Hash::Missing - a hash that warns when retrieving non-existant keys
+Hash::Missing - a hash that warns when retrieving non-existent keys
 
 =head1 SYNOPSIS
 
