@@ -18,7 +18,7 @@ use constant _default => undef;
 BEGIN {
 	no warnings 'once';
 	$Hash::DefaultValue::AUTHORITY = 'cpan:TOBYINK';
-	$Hash::DefaultValue::VERSION   = '0.004';
+	$Hash::DefaultValue::VERSION   = '0.005';
 	@Hash::DefaultValue::ISA       = qw(Tie::ExtraHash);
 }
 
