@@ -6,7 +6,7 @@
 	:perl_version_from _:main ;
 	:version_from _:main ;
 	:readme_from _:main ;
-	:requires "strict", "warnings", "utf8", "constant", "Tie::Hash", "Carp";
+	:requires "strict", "warnings", "utf8", "constant 1.06", "Tie::Hash", "Carp";
 	:test_requires "Test::More 0.61", "Test::Exception", "Test::Warn" .
 
 _:main <http://www.semanticdesktop.org/ontologies/2007/03/22/nfo#fileName> "lib/Hash/DefaultValue.pm" .

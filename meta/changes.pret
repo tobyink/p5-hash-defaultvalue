@@ -31,3 +31,9 @@
 		item [ a dcs:Documentation; dcs:thanks cpan:MAUKE; label "Correct misspelt abstract for Hash::Missing." ];
 		item [ a dcs:Packaging; dcs:thanks cpan:MAUKE; label "Add link to repo." ];
 	].
+
+`Hash-DefaultValue 0.006 cpan:TOBYINK`
+	issued  2012-12-18;
+	changeset [
+		item [ label "Require at least version 1.06 of constant.pm."; a dcs:Packaging, dcs:Bugfix; rdfs:seeAlso <http://cpantesters.org/cpan/report/dec43aa8-3277-11e2-971e-da98d11eac00> ];
+	].
