@@ -1,0 +1,13 @@
+@prefix deps:  <http://ontologi.es/doap-deps#> .
+
+<http://purl.org/NET/cpan-uri/dist/Hash-DefaultValue/project>
+	deps:runtime-requirement         [ deps:on "strict"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "warnings"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "utf8"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "constant 1.06"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Tie::Hash"^^deps:CpanId ];
+	deps:runtime-requirement         [ deps:on "Carp"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::More 0.61"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::Exception"^^deps:CpanId ];
+	deps:test-requirement            [ deps:on "Test::Warn"^^deps:CpanId ].
+
