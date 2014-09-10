@@ -37,3 +37,10 @@
 	changeset [
 		item [ label "Require at least version 1.06 of constant.pm."; a dcs:Packaging, dcs:Bugfix; rdfs:seeAlso <http://cpantesters.org/cpan/report/dec43aa8-3277-11e2-971e-da98d11eac00> ];
 	].
+
+`Hash-DefaultValue 0.007 cpan:TOBYINK`
+	issued    2014-09-10;
+	changeset [
+		item "Switch to Dist::Inkt."^^Packaging;
+	].
+
